@@ -1,0 +1,12 @@
+{
+    "total_rows": 1000,
+    "total_columns": 14,
+    "exact_duplicates": 0,
+    "duplicate_unique_keys": 0,
+    "invalid_created_dates": 0,
+    "invalid_closed_dates": 0,
+    "closed_before_created": 0,
+    "invalid_latitude": 0,
+    "invalid_longitude": 0,
+    "invalid_zip_codes": 991
+}

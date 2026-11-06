@@ -1,0 +1,42 @@
+[
+    {
+        "Issue":"Invalid ZIP Code",
+        "Example":{
+            "unique_key":56408676,
+            "incident_zip":11218.0,
+            "borough":"BROOKLYN"
+        }
+    },
+    {
+        "Issue":"Invalid ZIP Code",
+        "Example":{
+            "unique_key":56409451,
+            "incident_zip":11208.0,
+            "borough":"BROOKLYN"
+        }
+    },
+    {
+        "Issue":"Invalid ZIP Code",
+        "Example":{
+            "unique_key":56410345,
+            "incident_zip":10025.0,
+            "borough":"MANHATTAN"
+        }
+    },
+    {
+        "Issue":"Invalid ZIP Code",
+        "Example":{
+            "unique_key":56410624,
+            "incident_zip":11358.0,
+            "borough":"QUEENS"
+        }
+    },
+    {
+        "Issue":"Invalid ZIP Code",
+        "Example":{
+            "unique_key":56410653,
+            "incident_zip":11102.0,
+            "borough":"QUEENS"
+        }
+    }
+]

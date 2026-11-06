@@ -1,0 +1,2958 @@
+[
+  {
+    "id": "grid_001",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_002",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000,
+      "section_80c": 150000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_003",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_004",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000,
+      "basic_salary": 150000,
+      "hra_received": 60000,
+      "rent_paid": 75000,
+      "is_metro": true
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_005",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_006",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_007",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 300000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_008",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_009",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000,
+      "section_80c": 150000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_010",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_011",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000,
+      "basic_salary": 250000,
+      "hra_received": 100000,
+      "rent_paid": 125000,
+      "is_metro": false
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_012",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_013",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_014",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 500000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_015",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000
+    },
+    "expected_old": 23400,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_016",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000,
+      "section_80c": 150000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_017",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_018",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000,
+      "basic_salary": 300000,
+      "hra_received": 120000,
+      "rent_paid": 150000,
+      "is_metro": true
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_019",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_020",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_021",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 600000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_022",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000
+    },
+    "expected_old": 65000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_023",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000,
+      "section_80c": 150000
+    },
+    "expected_old": 33800,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_024",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 18200,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_025",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000,
+      "basic_salary": 400000,
+      "hra_received": 160000,
+      "rent_paid": 200000,
+      "is_metro": false
+    },
+    "expected_old": 31720,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_026",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_027",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 46800,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_028",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 800000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 10400,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_029",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000
+    },
+    "expected_old": 106600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_030",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000,
+      "section_80c": 150000
+    },
+    "expected_old": 75400,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_031",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 59800,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_032",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000,
+      "basic_salary": 500000,
+      "hra_received": 200000,
+      "rent_paid": 250000,
+      "is_metro": true
+    },
+    "expected_old": 65000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_033",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 44200,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_034",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 88400,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_035",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1000000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 52000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_036",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000
+    },
+    "expected_old": 163800,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_037",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000,
+      "section_80c": 150000
+    },
+    "expected_old": 117000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_038",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 101400,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_039",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000,
+      "basic_salary": 600000,
+      "hra_received": 240000,
+      "rent_paid": 300000,
+      "is_metro": false
+    },
+    "expected_old": 98280,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_040",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 85800,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_041",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 137800,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_042",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1200000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 93600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_043",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000
+    },
+    "expected_old": 257400,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_044",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000,
+      "section_80c": 150000
+    },
+    "expected_old": 210600,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_045",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 187200,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_046",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000,
+      "basic_salary": 750000,
+      "hra_received": 300000,
+      "rent_paid": 375000,
+      "is_metro": true
+    },
+    "expected_old": 163800,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_047",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 163800,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_048",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 231400,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_049",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 1500000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 182000,
+    "expected_new": 97500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_050",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000
+    },
+    "expected_old": 413400,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_051",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000,
+      "section_80c": 150000
+    },
+    "expected_old": 366600,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_052",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 343200,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_053",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000,
+      "basic_salary": 1000000,
+      "hra_received": 400000,
+      "rent_paid": 500000,
+      "is_metro": false
+    },
+    "expected_old": 288600,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_054",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 319800,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_055",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 387400,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_056",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 2000000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 338000,
+    "expected_new": 192400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_057",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000
+    },
+    "expected_old": 725400,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_058",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000,
+      "section_80c": 150000
+    },
+    "expected_old": 678600,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_059",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 655200,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_060",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000,
+      "basic_salary": 1500000,
+      "hra_received": 600000,
+      "rent_paid": 750000,
+      "is_metro": true
+    },
+    "expected_old": 538200,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_061",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 631800,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_062",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 699400,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_063",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 3000000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 650000,
+    "expected_new": 475800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_064",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000
+    },
+    "expected_old": 1349400,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_065",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000,
+      "section_80c": 150000
+    },
+    "expected_old": 1302600,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_066",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 1279200,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_067",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000,
+      "basic_salary": 2500000,
+      "hra_received": 1000000,
+      "rent_paid": 1250000,
+      "is_metro": false
+    },
+    "expected_old": 1037400,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_068",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 1255800,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_069",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 1323400,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_070",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 5000000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 1274000,
+    "expected_new": 1099800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_071",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000
+    },
+    "expected_old": 2342340,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_072",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000,
+      "section_80c": 150000
+    },
+    "expected_old": 2290860,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_073",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 2265120,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_074",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000,
+      "basic_salary": 3750000,
+      "hra_received": 1500000,
+      "rent_paid": 1875000,
+      "is_metro": true
+    },
+    "expected_old": 1827540,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_075",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 2239380,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_076",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 2313740,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_077",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 7500000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 2259400,
+    "expected_new": 2067780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_078",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000
+    },
+    "expected_old": 3200340,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_079",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000,
+      "section_80c": 150000
+    },
+    "expected_old": 3148860,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_080",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 3123120,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_081",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000,
+      "basic_salary": 5000000,
+      "hra_received": 2000000,
+      "rent_paid": 2500000,
+      "is_metro": false
+    },
+    "expected_old": 2513940,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_082",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 3097380,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_083",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 3171740,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_084",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 10000000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 3117400,
+    "expected_new": 2925780,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_085",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000
+    },
+    "expected_old": 9486750,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_086",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000,
+      "section_80c": 150000
+    },
+    "expected_old": 9428250,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_087",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 25000
+    },
+    "expected_old": 9399000,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_088",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000,
+      "basic_salary": 12500000,
+      "hra_received": 5000000,
+      "rent_paid": 6250000,
+      "is_metro": true
+    },
+    "expected_old": 6933810,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_089",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000,
+      "home_loan_interest": 200000,
+      "section_80c": 100000
+    },
+    "expected_old": 9369750,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_090",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000,
+      "age": 65,
+      "health_premium_self": 50000,
+      "health_premium_parents": 25000
+    },
+    "expected_old": 9454250,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "grid_091",
+    "fy": "2025-26",
+    "category": "grid",
+    "input": {
+      "annual_salary": 25000000,
+      "age": 82,
+      "section_80c": 150000,
+      "health_premium_parents": 50000,
+      "parents_senior": true
+    },
+    "expected_old": 9392500,
+    "expected_new": 9174750,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_001",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 474990
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_002",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 474999
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_003",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 475000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_004",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 475001
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_005",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 475010
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_006",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 874990
+    },
+    "expected_old": 80600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_007",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 874999
+    },
+    "expected_old": 80600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_008",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 875000
+    },
+    "expected_old": 80600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_009",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 875001
+    },
+    "expected_old": 80600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_010",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 875010
+    },
+    "expected_old": 80600,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_011",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1274990
+    },
+    "expected_old": 187200,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_012",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1274999
+    },
+    "expected_old": 187200,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_013",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1275000
+    },
+    "expected_old": 187200,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_014",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1275001
+    },
+    "expected_old": 187200,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_015",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1275010
+    },
+    "expected_old": 187200,
+    "expected_new": 10,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_016",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1674990
+    },
+    "expected_old": 312000,
+    "expected_new": 124800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_017",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1674999
+    },
+    "expected_old": 312000,
+    "expected_new": 124800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_018",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1675000
+    },
+    "expected_old": 312000,
+    "expected_new": 124800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_019",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1675001
+    },
+    "expected_old": 312000,
+    "expected_new": 124800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_020",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 1675010
+    },
+    "expected_old": 312000,
+    "expected_new": 124800,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_021",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2074990
+    },
+    "expected_old": 436800,
+    "expected_new": 208000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_022",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2074999
+    },
+    "expected_old": 436800,
+    "expected_new": 208000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_023",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2075000
+    },
+    "expected_old": 436800,
+    "expected_new": 208000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_024",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2075001
+    },
+    "expected_old": 436800,
+    "expected_new": 208000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_025",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2075010
+    },
+    "expected_old": 436800,
+    "expected_new": 208000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_026",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2474990
+    },
+    "expected_old": 561600,
+    "expected_new": 312000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_027",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2474999
+    },
+    "expected_old": 561600,
+    "expected_new": 312000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_028",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2475000
+    },
+    "expected_old": 561600,
+    "expected_new": 312000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_029",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2475001
+    },
+    "expected_old": 561600,
+    "expected_new": 312000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_new_030",
+    "fy": "2025-26",
+    "category": "boundary_new",
+    "input": {
+      "annual_salary": 2475010
+    },
+    "expected_old": 561600,
+    "expected_new": 312000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_001",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 299990
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_002",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 299999
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_003",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 300000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_004",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 300001
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_005",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 300010
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_006",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 349990
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_007",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 349999
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_008",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 350000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_009",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 350001
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_010",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 350010
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_011",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 549990
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_012",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 549999
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_013",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 550000
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_014",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 550001
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_015",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 550010
+    },
+    "expected_old": 13000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_016",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 1049990
+    },
+    "expected_old": 117000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_017",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 1049999
+    },
+    "expected_old": 117000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_018",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 1050000
+    },
+    "expected_old": 117000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_019",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 1050001
+    },
+    "expected_old": 117000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "boundary_old_020",
+    "fy": "2025-26",
+    "category": "boundary_old",
+    "input": {
+      "annual_salary": 1050010
+    },
+    "expected_old": 117000,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_001",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5049990
+    },
+    "expected_old": 1365000,
+    "expected_new": 1115400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_002",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5050000
+    },
+    "expected_old": 1365000,
+    "expected_new": 1115400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_003",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5050010
+    },
+    "expected_old": 1365010,
+    "expected_new": 1115400,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_004",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5051000
+    },
+    "expected_old": 1366040,
+    "expected_new": 1115710,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_005",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5150000
+    },
+    "expected_old": 1469000,
+    "expected_new": 1201200,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_006",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5074990
+    },
+    "expected_old": 1390990,
+    "expected_new": 1123200,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_007",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5075000
+    },
+    "expected_old": 1391000,
+    "expected_new": 1123200,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_008",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5075010
+    },
+    "expected_old": 1391010,
+    "expected_new": 1123210,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_009",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5076000
+    },
+    "expected_old": 1392040,
+    "expected_new": 1124240,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_010",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 5175000
+    },
+    "expected_old": 1495000,
+    "expected_new": 1227200,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_011",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10049990
+    },
+    "expected_old": 3217500,
+    "expected_new": 2942940,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_012",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10050000
+    },
+    "expected_old": 3217500,
+    "expected_new": 2942940,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_013",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10050010
+    },
+    "expected_old": 3217510,
+    "expected_new": 2942940,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_014",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10051000
+    },
+    "expected_old": 3218540,
+    "expected_new": 2943280,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_015",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10150000
+    },
+    "expected_old": 3321500,
+    "expected_new": 3029520,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_016",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10074990
+    },
+    "expected_old": 3243490,
+    "expected_new": 2951520,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_017",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10075000
+    },
+    "expected_old": 3243500,
+    "expected_new": 2951520,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_018",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10075010
+    },
+    "expected_old": 3243510,
+    "expected_new": 2951530,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_019",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10076000
+    },
+    "expected_old": 3244540,
+    "expected_new": 2952560,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_020",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 10175000
+    },
+    "expected_old": 3347500,
+    "expected_new": 3055520,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_021",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20049990
+    },
+    "expected_old": 6951750,
+    "expected_new": 6664710,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_022",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20050000
+    },
+    "expected_old": 6951750,
+    "expected_new": 6664710,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_023",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20050010
+    },
+    "expected_old": 6951760,
+    "expected_new": 6664710,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_024",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20051000
+    },
+    "expected_old": 6952790,
+    "expected_new": 6665070,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_025",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20150000
+    },
+    "expected_old": 7055750,
+    "expected_new": 6751680,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_026",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20074990
+    },
+    "expected_old": 6977740,
+    "expected_new": 6673680,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_027",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20075000
+    },
+    "expected_old": 6977750,
+    "expected_new": 6673680,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_028",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20075010
+    },
+    "expected_old": 6977760,
+    "expected_new": 6673690,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_029",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20076000
+    },
+    "expected_old": 6978790,
+    "expected_new": 6674720,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_030",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 20175000
+    },
+    "expected_old": 7081750,
+    "expected_new": 6777680,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_031",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50049990
+    },
+    "expected_old": 19256250,
+    "expected_new": 18944250,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_032",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50050000
+    },
+    "expected_old": 19256250,
+    "expected_new": 18944250,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_033",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50050010
+    },
+    "expected_old": 19256260,
+    "expected_new": 18944250,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_034",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50051000
+    },
+    "expected_old": 19257290,
+    "expected_new": 18944640,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_035",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50150000
+    },
+    "expected_old": 19360250,
+    "expected_new": 18983250,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_036",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50074990
+    },
+    "expected_old": 19282240,
+    "expected_new": 18954000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_037",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50075000
+    },
+    "expected_old": 19282250,
+    "expected_new": 18954000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_038",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50075010
+    },
+    "expected_old": 19282260,
+    "expected_new": 18954000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_039",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50076000
+    },
+    "expected_old": 19283290,
+    "expected_new": 18954390,
+    "source": "independent_reference"
+  },
+  {
+    "id": "surcharge_040",
+    "fy": "2025-26",
+    "category": "surcharge",
+    "input": {
+      "annual_salary": 50175000
+    },
+    "expected_old": 19386250,
+    "expected_new": 18993000,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_001",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 5538000,
+      "age": 30,
+      "section_80c": 80000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 15000,
+      "home_loan_interest": 0
+    },
+    "expected_old": 1627800,
+    "expected_new": 1394420,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_002",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 5843000,
+      "age": 70,
+      "section_80c": 20000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 0,
+      "home_loan_interest": 0,
+      "basic_salary": 2705666,
+      "hra_received": 1082266,
+      "rent_paid": 200000,
+      "is_metro": false
+    },
+    "expected_old": 1746770,
+    "expected_new": 1499100,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_003",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 517000,
+      "age": 35,
+      "section_80c": 200000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 15000,
+      "home_loan_interest": 100000,
+      "basic_salary": 243333,
+      "hra_received": 97333,
+      "rent_paid": 60000,
+      "is_metro": false
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_004",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1607000,
+      "age": 45,
+      "section_80c": 80000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 15000,
+      "home_loan_interest": 100000,
+      "basic_salary": 751666,
+      "hra_received": 300666,
+      "rent_paid": 300000,
+      "is_metro": true
+    },
+    "expected_old": 152000,
+    "expected_new": 114190,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_005",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3117000,
+      "age": 30,
+      "section_80c": 140000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 30000,
+      "home_loan_interest": 0,
+      "basic_salary": 1309000,
+      "hra_received": 523600,
+      "rent_paid": 290000,
+      "is_metro": false
+    },
+    "expected_old": 660780,
+    "expected_new": 512300,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_006",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 869000,
+      "age": 82,
+      "section_80c": 70000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 5000,
+      "home_loan_interest": 0
+    },
+    "expected_old": 40350,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_007",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3413000,
+      "age": 62,
+      "section_80c": 200000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 10000,
+      "home_loan_interest": 100000,
+      "basic_salary": 1421666,
+      "hra_received": 568666,
+      "rent_paid": 230000,
+      "is_metro": false
+    },
+    "expected_old": 727530,
+    "expected_new": 604660,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_008",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 5899000,
+      "age": 30,
+      "section_80c": 190000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 40000,
+      "home_loan_interest": 250000,
+      "basic_salary": 2629333,
+      "hra_received": 1051733,
+      "rent_paid": 350000,
+      "is_metro": true
+    },
+    "expected_old": 1625710,
+    "expected_new": 1518320,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_009",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 5542000,
+      "age": 70,
+      "section_80c": 70000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 60000,
+      "home_loan_interest": 0,
+      "basic_salary": 2551333,
+      "hra_received": 1020533,
+      "rent_paid": 80000,
+      "is_metro": false
+    },
+    "expected_old": 1609150,
+    "expected_new": 1395790,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_010",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3586000,
+      "age": 30,
+      "section_80c": 60000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 15000,
+      "home_loan_interest": 250000,
+      "basic_salary": 1469333,
+      "hra_received": 587733,
+      "rent_paid": 350000,
+      "is_metro": true
+    },
+    "expected_old": 743470,
+    "expected_new": 658630,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_011",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1443000,
+      "age": 82,
+      "section_80c": 170000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 55000,
+      "home_loan_interest": 250000,
+      "basic_salary": 544000,
+      "hra_received": 217600,
+      "rent_paid": 310000,
+      "is_metro": true
+    },
+    "expected_old": 46880,
+    "expected_new": 88610,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_012",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1433000,
+      "age": 62,
+      "section_80c": 20000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 5000,
+      "home_loan_interest": 0
+    },
+    "expected_old": 226100,
+    "expected_new": 87050,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_013",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 5874000,
+      "age": 70,
+      "section_80c": 20000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 30000,
+      "home_loan_interest": 250000
+    },
+    "expected_old": 1678480,
+    "expected_new": 1509740,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_014",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 4634000,
+      "age": 70,
+      "section_80c": 0,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 50000,
+      "home_loan_interest": 250000
+    },
+    "expected_old": 1154610,
+    "expected_new": 985610,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_015",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 5550000,
+      "age": 30,
+      "section_80c": 90000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 10000,
+      "home_loan_interest": 100000,
+      "basic_salary": 2198000,
+      "hra_received": 879200,
+      "rent_paid": 220000,
+      "is_metro": false
+    },
+    "expected_old": 1587230,
+    "expected_new": 1398540,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_016",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1763000,
+      "age": 30,
+      "section_80c": 200000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 50000,
+      "home_loan_interest": 250000
+    },
+    "expected_old": 206860,
+    "expected_new": 143100,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_017",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1552000,
+      "age": 35,
+      "section_80c": 170000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 45000,
+      "home_loan_interest": 100000,
+      "basic_salary": 708333,
+      "hra_received": 283333,
+      "rent_paid": 130000,
+      "is_metro": false
+    },
+    "expected_old": 169360,
+    "expected_new": 105610,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_018",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 2819000,
+      "age": 30,
+      "section_80c": 70000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 5000,
+      "home_loan_interest": 250000,
+      "basic_salary": 1061666,
+      "hra_received": 424666,
+      "rent_paid": 100000,
+      "is_metro": false
+    },
+    "expected_old": 583130,
+    "expected_new": 419330,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_019",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 4663000,
+      "age": 35,
+      "section_80c": 150000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 20000,
+      "home_loan_interest": 250000
+    },
+    "expected_old": 1121020,
+    "expected_new": 994660,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_020",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3766000,
+      "age": 70,
+      "section_80c": 60000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 30000,
+      "home_loan_interest": 250000
+    },
+    "expected_old": 855710,
+    "expected_new": 714790,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_021",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3888000,
+      "age": 62,
+      "section_80c": 30000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 15000,
+      "home_loan_interest": 0,
+      "basic_salary": 1825000,
+      "hra_received": 730000,
+      "rent_paid": 200000,
+      "is_metro": false
+    },
+    "expected_old": 972560,
+    "expected_new": 752860,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_022",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 358000,
+      "age": 82,
+      "section_80c": 200000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 15000,
+      "home_loan_interest": 0
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_023",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3006000,
+      "age": 70,
+      "section_80c": 70000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 50000,
+      "home_loan_interest": 100000,
+      "basic_salary": 1038000,
+      "hra_received": 415200,
+      "rent_paid": 140000,
+      "is_metro": false
+    },
+    "expected_old": 629140,
+    "expected_new": 477670,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_024",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 4977000,
+      "age": 62,
+      "section_80c": 70000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 60000,
+      "home_loan_interest": 100000,
+      "basic_salary": 2249000,
+      "hra_received": 899600,
+      "rent_paid": 120000,
+      "is_metro": false
+    },
+    "expected_old": 1255380,
+    "expected_new": 1092620,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_025",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3202000,
+      "age": 62,
+      "section_80c": 140000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 50000,
+      "home_loan_interest": 250000
+    },
+    "expected_old": 664140,
+    "expected_new": 538820,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_026",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1106000,
+      "age": 62,
+      "section_80c": 100000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 15000,
+      "home_loan_interest": 0,
+      "basic_salary": 383666,
+      "hra_received": 153466,
+      "rent_paid": 340000,
+      "is_metro": true
+    },
+    "expected_old": 70210,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_027",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1803000,
+      "age": 62,
+      "section_80c": 70000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 35000,
+      "home_loan_interest": 250000,
+      "basic_salary": 743000,
+      "hra_received": 297200,
+      "rent_paid": 60000,
+      "is_metro": false
+    },
+    "expected_old": 254180,
+    "expected_new": 151420,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_028",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 2236000,
+      "age": 62,
+      "section_80c": 150000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 15000,
+      "home_loan_interest": 100000
+    },
+    "expected_old": 386150,
+    "expected_new": 249860,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_029",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1648000,
+      "age": 30,
+      "section_80c": 120000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 60000,
+      "home_loan_interest": 100000,
+      "basic_salary": 743333,
+      "hra_received": 297333,
+      "rent_paid": 370000,
+      "is_metro": true
+    },
+    "expected_old": 119290,
+    "expected_new": 120590,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_030",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 2730000,
+      "age": 30,
+      "section_80c": 180000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 55000,
+      "home_loan_interest": 100000,
+      "basic_salary": 1021000,
+      "hra_received": 408400,
+      "rent_paid": 360000,
+      "is_metro": false
+    },
+    "expected_old": 474900,
+    "expected_new": 391560,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_031",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 4650000,
+      "age": 30,
+      "section_80c": 160000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 10000,
+      "home_loan_interest": 0,
+      "basic_salary": 1711000,
+      "hra_received": 684400,
+      "rent_paid": 210000,
+      "is_metro": true
+    },
+    "expected_old": 1178140,
+    "expected_new": 990600,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_032",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 4966000,
+      "age": 70,
+      "section_80c": 190000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 45000,
+      "home_loan_interest": 0,
+      "basic_salary": 1907333,
+      "hra_received": 762933,
+      "rent_paid": 390000,
+      "is_metro": true
+    },
+    "expected_old": 1213180,
+    "expected_new": 1089190,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_033",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 2436000,
+      "age": 82,
+      "section_80c": 100000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 20000,
+      "home_loan_interest": 100000,
+      "basic_salary": 916000,
+      "hra_received": 366400,
+      "rent_paid": 250000,
+      "is_metro": true
+    },
+    "expected_old": 410570,
+    "expected_new": 301860,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_034",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 894000,
+      "age": 62,
+      "section_80c": 190000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 5000,
+      "home_loan_interest": 250000,
+      "basic_salary": 300000,
+      "hra_received": 120000,
+      "rent_paid": 220000,
+      "is_metro": true
+    },
+    "expected_old": 0,
+    "expected_new": 0,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_035",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3159000,
+      "age": 35,
+      "section_80c": 110000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 10000,
+      "home_loan_interest": 100000
+    },
+    "expected_old": 690770,
+    "expected_new": 525410,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_036",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 2778000,
+      "age": 82,
+      "section_80c": 160000,
+      "section_80ccd_1b": 0,
+      "health_premium_self": 50000,
+      "home_loan_interest": 250000,
+      "basic_salary": 1239000,
+      "hra_received": 495600,
+      "rent_paid": 120000,
+      "is_metro": false
+    },
+    "expected_old": 518340,
+    "expected_new": 406540,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_037",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 1400000,
+      "age": 30,
+      "section_80c": 30000,
+      "section_80ccd_1b": 25000,
+      "health_premium_self": 20000,
+      "home_loan_interest": 100000
+    },
+    "expected_old": 171600,
+    "expected_new": 81900,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_038",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3108000,
+      "age": 82,
+      "section_80c": 200000,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 40000,
+      "home_loan_interest": 100000,
+      "basic_salary": 1244000,
+      "hra_received": 497600,
+      "rent_paid": 90000,
+      "is_metro": true
+    },
+    "expected_old": 640020,
+    "expected_new": 509500,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_039",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 3769000,
+      "age": 30,
+      "section_80c": 0,
+      "section_80ccd_1b": 50000,
+      "health_premium_self": 60000,
+      "home_loan_interest": 0
+    },
+    "expected_old": 941930,
+    "expected_new": 715730,
+    "source": "independent_reference"
+  },
+  {
+    "id": "random_040",
+    "fy": "2025-26",
+    "category": "random",
+    "input": {
+      "annual_salary": 2445000,
+      "age": 82,
+      "section_80c": 140000,
+      "section_80ccd_1b": 70000,
+      "health_premium_self": 40000,
+      "home_loan_interest": 0,
+      "basic_salary": 897000,
+      "hra_received": 358800,
+      "rent_paid": 150000,
+      "is_metro": false
+    },
+    "expected_old": 448670,
+    "expected_new": 304200,
+    "source": "independent_reference"
+  }
+]

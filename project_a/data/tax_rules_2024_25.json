@@ -1,0 +1,56 @@
+{
+  "financial_year": "2024-25",
+  "cess_rate": 4,
+  "regimes": {
+    "new": {
+      "standard_deduction": 75000,
+      "slabs": {
+        "default": [
+          {"from": 0, "to": 300000, "rate": 0},
+          {"from": 300000, "to": 700000, "rate": 5},
+          {"from": 700000, "to": 1000000, "rate": 10},
+          {"from": 1000000, "to": 1200000, "rate": 15},
+          {"from": 1200000, "to": 1500000, "rate": 20},
+          {"from": 1500000, "to": null, "rate": 30}
+        ]
+      },
+      "rebate_87a": {"income_limit": 700000, "max_rebate": 25000, "marginal_relief": true},
+      "surcharge": [
+        {"above": 5000000, "rate": 10},
+        {"above": 10000000, "rate": 15},
+        {"above": 20000000, "rate": 25}
+      ],
+      "clause": "Finance Act 2024; Sec 115BAC"
+    },
+    "old": {
+      "standard_deduction": 50000,
+      "slabs": {
+        "default": [
+          {"from": 0, "to": 250000, "rate": 0},
+          {"from": 250000, "to": 500000, "rate": 5},
+          {"from": 500000, "to": 1000000, "rate": 20},
+          {"from": 1000000, "to": null, "rate": 30}
+        ],
+        "senior": [
+          {"from": 0, "to": 300000, "rate": 0},
+          {"from": 300000, "to": 500000, "rate": 5},
+          {"from": 500000, "to": 1000000, "rate": 20},
+          {"from": 1000000, "to": null, "rate": 30}
+        ],
+        "super_senior": [
+          {"from": 0, "to": 500000, "rate": 0},
+          {"from": 500000, "to": 1000000, "rate": 20},
+          {"from": 1000000, "to": null, "rate": 30}
+        ]
+      },
+      "rebate_87a": {"income_limit": 500000, "max_rebate": 12500, "marginal_relief": false},
+      "surcharge": [
+        {"above": 5000000, "rate": 10},
+        {"above": 10000000, "rate": 15},
+        {"above": 20000000, "rate": 25},
+        {"above": 50000000, "rate": 37}
+      ],
+      "clause": "Finance Act 2024; Income-tax Act 1961, Sec 115BAC(old regime applies by default)"
+    }
+  }
+}

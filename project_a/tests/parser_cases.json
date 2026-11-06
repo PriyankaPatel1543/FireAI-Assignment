@@ -1,0 +1,83 @@
+[
+  {"id": "p001", "text": "My salary is 1200000. I have 150000 under 80C.",
+   "expect_ready": true,
+   "expect_inputs": {"annual_salary": 1200000, "section_80c": 150000}},
+
+  {"id": "p002", "text": "I earn 12 lakh and pay rent",
+   "expect_ready": false,
+   "expect_missing": ["rent_amount", "basic_salary", "hra_received", "city"]},
+
+  {"id": "p003", "text": "meri salary 10 lakh hai, phir bola 12 lakh",
+   "expect_ready": false, "expect_conflict": true},
+
+  {"id": "p004", "text": "I get 50k per month",
+   "expect_ready": true, "expect_inputs": {"annual_salary": 600000}},
+
+  {"id": "p005", "text": "meri salary 18 lakh hai aur 80C mein 1.5 lakh lagaya hai",
+   "expect_ready": true,
+   "expect_inputs": {"annual_salary": 1800000, "section_80c": 150000}},
+
+  {"id": "p006", "text": "I earn 2 crore a year",
+   "expect_ready": true, "expect_inputs": {"annual_salary": 20000000}},
+
+  {"id": "p007", "text": "Salary 15 lakh, rent 20k per month in Mumbai, basic 6 lakh, HRA 2.4 lakh",
+   "expect_ready": true,
+   "expect_inputs": {"annual_salary": 1500000, "rent_paid": 240000,
+                     "basic_salary": 600000, "hra_received": 240000, "is_metro": true}},
+
+  {"id": "p008", "text": "Salary 15 lakh, rent 20k per month, basic 6 lakh, HRA 2.4 lakh",
+   "expect_ready": false, "expect_missing": ["city"]},
+
+  {"id": "p009", "text": "I earn 14 lakh and own my house, no rent",
+   "expect_ready": true, "expect_inputs": {"annual_salary": 1400000}},
+
+  {"id": "p010", "text": "Salary 12 lakh, I pay 30000 health insurance for my parents",
+   "expect_ready": false, "expect_missing": ["parents_age"]},
+
+  {"id": "p011", "text": "I have a 5 lakh loan interest and salary of 25 lakh",
+   "expect_ready": true,
+   "expect_inputs": {"annual_salary": 2500000, "home_loan_interest": 500000}},
+
+  {"id": "p012", "text": "Mera CTC 10 lakh hai, actually 12 lakh hai",
+   "expect_ready": false, "expect_conflict": true},
+
+  {"id": "p013", "text": "My CTC is 9 lakh per annum.", "expect_ready": true, "expect_inputs": {"annual_salary": 900000}},
+  {"id": "p014", "text": "Gross salary 24 lakh, 80C 1.5 lakh, and 50000 extra in NPS.", "expect_ready": true, "expect_inputs": {"annual_salary": 2400000, "section_80c": 150000, "section_80ccd_1b": 50000}},
+  {"id": "p015", "text": "I earn 80,000 a month and pay 25000 health insurance for myself.", "expect_ready": true, "expect_inputs": {"annual_salary": 960000, "health_premium_self": 25000}},
+  {"id": "p016", "text": "Annual package is 30 lpa, home loan interest 1.8 lakh.", "expect_ready": true, "expect_inputs": {"annual_salary": 3000000, "home_loan_interest": 180000}},
+  {"id": "p017", "text": "I'm 62 years old, salary 11 lakh, health insurance 40000 for myself.", "expect_ready": true, "expect_inputs": {"annual_salary": 1100000, "age": 62, "health_premium_self": 40000}},
+  {"id": "p018", "text": "Salary 16 lakh, rent 12000 monthly in Delhi, basic salary 8 lakh, HRA 3.2 lakh.", "expect_ready": true, "expect_inputs": {"annual_salary": 1600000, "rent_paid": 144000, "basic_salary": 800000, "hra_received": 320000, "is_metro": true}},
+  {"id": "p019", "text": "Salary 16 lakh, rent 12000 monthly in Nagpur, basic 8 lakh, HRA 3.2 lakh.", "expect_ready": true, "expect_inputs": {"annual_salary": 1600000, "rent_paid": 144000, "basic_salary": 800000, "hra_received": 320000, "is_metro": false}},
+  {"id": "p020", "text": "Salary 20 lakh, my parents are 65 and I pay 45000 premium for them.", "expect_ready": true, "expect_inputs": {"annual_salary": 2000000, "health_premium_parents": 45000, "parents_senior": true}},
+  {"id": "p021", "text": "I make 6.5 lakh a year.", "expect_ready": true, "expect_inputs": {"annual_salary": 650000}},
+  {"id": "p022", "text": "meri salary 25 lakh hai", "expect_ready": true, "expect_inputs": {"annual_salary": 2500000}},
+  {"id": "p023", "text": "main 40k mahine ka kamata hoon", "expect_ready": true, "expect_inputs": {"annual_salary": 480000}},
+  {"id": "p024", "text": "salary 12 lac hai aur 80C mein 1 lakh invest kiya hai", "expect_ready": true, "expect_inputs": {"annual_salary": 1200000, "section_80c": 100000}},
+  {"id": "p025", "text": "meri annual income 9 lpa hai, NPS mein 50000 dala hai", "expect_ready": true, "expect_inputs": {"annual_salary": 900000, "section_80ccd_1b": 50000}},
+  {"id": "p026", "text": "mera salary 20 lakh hai, Mumbai mein 25k rent deta hoon, basic 8 lakh aur HRA 3 lakh", "expect_ready": true, "expect_inputs": {"annual_salary": 2000000, "rent_paid": 300000, "basic_salary": 800000, "hra_received": 300000, "is_metro": true}},
+  {"id": "p027", "text": "salary 14 lakh hai, home loan ka interest 1.2 lakh bhar raha hoon", "expect_ready": true, "expect_inputs": {"annual_salary": 1400000, "home_loan_interest": 120000}},
+  {"id": "p028", "text": "mera ghar apna hai, salary 18 lakh", "expect_ready": true, "expect_inputs": {"annual_salary": 1800000}},
+  {"id": "p029", "text": "meri age 63 saal hai aur salary 10 lakh hai", "expect_ready": true, "expect_inputs": {"annual_salary": 1000000, "age": 63}},
+  {"id": "p030", "text": "papa mummy ka health insurance 30000 ka hai, meri salary 15 lakh hai", "expect_ready": false, "expect_missing": ["parents_age"]},
+  {"id": "p031", "text": "salary 8 lakh hai, rent bhi deta hoon", "expect_ready": false, "expect_missing": ["rent_amount", "basic_salary", "hra_received", "city"]},
+  {"id": "p032", "text": "meri salary 22 lakh hai, 80C mein pura 1.5 lakh bhara hai", "expect_ready": true, "expect_inputs": {"annual_salary": 2200000, "section_80c": 150000}},
+  {"id": "p033", "text": "1 lakh mahina milta hai, apne health insurance ka 20000 diya", "expect_ready": true, "expect_inputs": {"annual_salary": 1200000, "health_premium_self": 20000}},
+  {"id": "p034", "text": "I pay 15000 rent every month", "expect_ready": false, "expect_missing": ["annual_salary", "basic_salary", "hra_received", "city"]},
+  {"id": "p035", "text": "I want to know my tax", "expect_ready": false, "expect_missing": ["annual_salary"]},
+  {"id": "p036", "text": "Salary 12 lakh, rent 10k monthly, I live in Chennai", "expect_ready": false, "expect_missing": ["basic_salary", "hra_received"]},
+  {"id": "p037", "text": "mujhe tax calculate karna hai", "expect_ready": false, "expect_missing": ["annual_salary"]},
+  {"id": "p038", "text": "I earn 18 lakh and pay 25000 health insurance for my parents", "expect_ready": false, "expect_missing": ["parents_age"]},
+  {"id": "p039", "text": "My salary is 10 lakh, no wait, it's 12 lakh", "expect_ready": false, "expect_conflict": true},
+  {"id": "p040", "text": "Salary is 15 lakh. Oh sorry, I meant 18 lakh.", "expect_ready": false, "expect_conflict": true},
+  {"id": "p041", "text": "I pay 10000 rent monthly, actually 15000 monthly, salary 12 lakh", "expect_ready": false, "expect_conflict": true},
+  {"id": "p042", "text": "I am 30 years old, actually 45, salary 10 lakh", "expect_ready": false, "expect_conflict": true},
+  {"id": "p043", "text": "meri salary 20 lakh hai, nahi nahi 22 lakh hai", "expect_ready": false, "expect_conflict": true},
+  {"id": "p044", "text": "80C investment 1 lakh hai, wait 1.5 lakh hai, salary 14 lakh", "expect_ready": false, "expect_conflict": true},
+  {"id": "p045", "text": "My salary is 12 lakh per year and 50k per month", "expect_ready": false, "expect_conflict": true},
+  {"id": "p046", "text": "meri salary 11 lakh hai ya 13 lakh, pata nahi", "expect_ready": false, "expect_conflict": true},
+  {"id": "p047", "text": "I live in Mumbai, no actually Pune. Rent 20k monthly, salary 14 lakh, basic 6 lakh, HRA 2 lakh", "expect_ready": false, "expect_conflict": true},
+  {"id": "p048", "text": "Home loan interest 1 lakh, correction 2.5 lakh, salary 20 lakh", "expect_ready": false, "expect_conflict": true},
+  {"id": "p049", "text": "meri tankhwah 7.5 lakh saalana hai", "expect_ready": true, "expect_inputs": {"annual_salary": 750000}},
+  {"id": "p050", "text": "My age is 58, no I am 67, salary 9 lakh", "expect_ready": false, "expect_conflict": true}
+
+]

@@ -1,0 +1,15 @@
+,Missing_Count,Missing_Percentage
+unique_key,0,0.0
+created_date,0,0.0
+closed_date,4,0.4
+agency,0,0.0
+agency_name,0,0.0
+complaint_type,0,0.0
+descriptor,31,3.1
+borough,0,0.0
+status,0,0.0
+resolution_description,4,0.4
+location_type,65,6.5
+incident_zip,9,0.9
+latitude,11,1.1
+longitude,11,1.1

@@ -1,0 +1,989 @@
+{
+  "p001": {
+    "inputs": {
+      "annual_salary": 1200000,
+      "section_80c": 150000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 443,
+    "latency_s": 7.08
+  },
+  "p002": {
+    "inputs": {
+      "annual_salary": 1200000
+    },
+    "missing_fields": [
+      "rent_amount",
+      "basic_salary",
+      "hra_received",
+      "city"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "How much rent do you pay (monthly or yearly)?",
+    "ready": false,
+    "tokens": 419,
+    "latency_s": 9.01
+  },
+  "p003": {
+    "inputs": {},
+    "missing_fields": [
+      "annual_salary"
+    ],
+    "conflicts": [
+      "User stated salary as 10 lakh and 12 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated salary as 10 lakh and 12 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 437,
+    "latency_s": 21.61
+  },
+  "p004": {
+    "inputs": {
+      "annual_salary": 600000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 416,
+    "latency_s": 4.39
+  },
+  "p005": {
+    "inputs": {
+      "annual_salary": 1800000,
+      "section_80c": 150000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 437,
+    "latency_s": 8.07
+  },
+  "p006": {
+    "inputs": {
+      "annual_salary": 20000000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 418,
+    "latency_s": 5.25
+  },
+  "p007": {
+    "inputs": {
+      "annual_salary": 1500000,
+      "rent_paid": 240000,
+      "basic_salary": 600000,
+      "hra_received": 240000,
+      "is_metro": true
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 456,
+    "latency_s": 5.72
+  },
+  "p008": {
+    "inputs": {
+      "annual_salary": 1500000,
+      "rent_paid": 240000,
+      "basic_salary": 600000,
+      "hra_received": 240000
+    },
+    "missing_fields": [
+      "city"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "Which city do you live in? (Metro or non-metro changes the HRA limit.)",
+    "ready": false,
+    "tokens": 453,
+    "latency_s": 5.08
+  },
+  "p009": {
+    "inputs": {
+      "annual_salary": 1400000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 423,
+    "latency_s": 5.52
+  },
+  "p010": {
+    "inputs": {
+      "annual_salary": 1200000,
+      "health_premium_parents": 30000
+    },
+    "missing_fields": [
+      "parents_age"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "Are your parents 60 or older? It changes the health-insurance limit.",
+    "ready": false,
+    "tokens": 434,
+    "latency_s": 3.29
+  },
+  "p011": {
+    "inputs": {
+      "annual_salary": 2500000,
+      "home_loan_interest": 500000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 431,
+    "latency_s": 5.41
+  },
+  "p012": {
+    "inputs": {
+      "annual_salary": 1200000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated CTC as both 10 lakh and 12 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated CTC as both 10 lakh and 12 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 447,
+    "latency_s": 8.61
+  },
+  "p013": {
+    "inputs": {
+      "annual_salary": 900000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 418,
+    "latency_s": 9.19
+  },
+  "p014": {
+    "inputs": {
+      "annual_salary": 2400000,
+      "section_80c": 150000,
+      "section_80ccd_1b": 50000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 449,
+    "latency_s": 7.15
+  },
+  "p015": {
+    "inputs": {
+      "annual_salary": 960000,
+      "health_premium_self": 25000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 437,
+    "latency_s": 9.91
+  },
+  "p016": {
+    "inputs": {
+      "annual_salary": 3000000,
+      "home_loan_interest": 180000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 434,
+    "latency_s": 3.58
+  },
+  "p017": {
+    "inputs": {
+      "annual_salary": 1100000,
+      "health_premium_self": 40000,
+      "age": 62
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 443,
+    "latency_s": 7.49
+  },
+  "p018": {
+    "inputs": {
+      "annual_salary": 1600000,
+      "rent_paid": 144000,
+      "basic_salary": 800000,
+      "hra_received": 320000,
+      "is_metro": true
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 459,
+    "latency_s": 1.23
+  },
+  "p019": {
+    "inputs": {
+      "annual_salary": 1600000,
+      "rent_paid": 144000,
+      "basic_salary": 800000,
+      "hra_received": 320000,
+      "is_metro": false
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 459,
+    "latency_s": 5.53
+  },
+  "p020": {
+    "inputs": {
+      "annual_salary": 2000000,
+      "health_premium_parents": 45000,
+      "parents_senior": true
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 442,
+    "latency_s": 5.48
+  },
+  "p021": {
+    "inputs": {
+      "annual_salary": 650000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 419,
+    "latency_s": 3.47
+  },
+  "p022": {
+    "inputs": {
+      "annual_salary": 2500000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 417,
+    "latency_s": 3.2
+  },
+  "p023": {
+    "inputs": {
+      "annual_salary": 480000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 419,
+    "latency_s": 4.38
+  },
+  "p024": {
+    "inputs": {
+      "annual_salary": 1200000,
+      "section_80c": 100000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 434,
+    "latency_s": 3.72
+  },
+  "p025": {
+    "inputs": {
+      "annual_salary": 900000,
+      "section_80ccd_1b": 50000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 433,
+    "latency_s": 2.82
+  },
+  "p026": {
+    "inputs": {
+      "annual_salary": 2000000,
+      "rent_paid": 300000,
+      "basic_salary": 800000,
+      "hra_received": 300000,
+      "is_metro": true
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 456,
+    "latency_s": 16.99
+  },
+  "p027": {
+    "inputs": {
+      "annual_salary": 1400000,
+      "home_loan_interest": 120000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 435,
+    "latency_s": 12.69
+  },
+  "p028": {
+    "inputs": {
+      "annual_salary": 1800000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 420,
+    "latency_s": 3.3
+  },
+  "p029": {
+    "inputs": {
+      "annual_salary": 1000000,
+      "age": 63
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 427,
+    "latency_s": 2.61
+  },
+  "p030": {
+    "inputs": {
+      "annual_salary": 1500000,
+      "health_premium_parents": 30000
+    },
+    "missing_fields": [
+      "parents_age"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "Are your parents 60 or older? It changes the health-insurance limit.",
+    "ready": false,
+    "tokens": 436,
+    "latency_s": 21.29
+  },
+  "p031": {
+    "inputs": {
+      "annual_salary": 800000
+    },
+    "missing_fields": [
+      "rent_amount",
+      "basic_salary",
+      "hra_received",
+      "city"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "How much rent do you pay (monthly or yearly)?",
+    "ready": false,
+    "tokens": 419,
+    "latency_s": 4.8
+  },
+  "p032": {
+    "inputs": {
+      "annual_salary": 2200000,
+      "section_80c": 150000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 438,
+    "latency_s": 4.6
+  },
+  "p033": {
+    "inputs": {
+      "annual_salary": 1200000,
+      "health_premium_self": 20000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 433,
+    "latency_s": 1.83
+  },
+  "p034": {
+    "inputs": {
+      "rent_paid": 180000
+    },
+    "missing_fields": [
+      "annual_salary",
+      "basic_salary",
+      "hra_received",
+      "city"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "What is your annual salary (or monthly salary)?",
+    "ready": false,
+    "tokens": 419,
+    "latency_s": 8.39
+  },
+  "p035": {
+    "inputs": {},
+    "missing_fields": [
+      "annual_salary"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "What is your annual salary (or monthly salary)?",
+    "ready": false,
+    "tokens": 409,
+    "latency_s": 4.2
+  },
+  "p036": {
+    "inputs": {
+      "annual_salary": 1200000,
+      "rent_paid": 120000,
+      "is_metro": true
+    },
+    "missing_fields": [
+      "basic_salary",
+      "hra_received"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "What is your basic salary (plus DA) per year? HRA depends on it.",
+    "ready": false,
+    "tokens": 433,
+    "latency_s": 9.3
+  },
+  "p037": {
+    "inputs": {},
+    "missing_fields": [
+      "annual_salary"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "What is your annual salary (or monthly salary)?",
+    "ready": false,
+    "tokens": 409,
+    "latency_s": 13.1
+  },
+  "p038": {
+    "inputs": {
+      "annual_salary": 1800000,
+      "health_premium_parents": 25000
+    },
+    "missing_fields": [
+      "parents_age"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "Are your parents 60 or older? It changes the health-insurance limit.",
+    "ready": false,
+    "tokens": 434,
+    "latency_s": 20.67
+  },
+  "p039": {
+    "inputs": {
+      "annual_salary": 1200000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated salary as 10 lakh and 12 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated salary as 10 lakh and 12 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 448,
+    "latency_s": 5.23
+  },
+  "p040": {
+    "inputs": {
+      "annual_salary": 1800000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated salary as 15 lakh and then 18 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated salary as 15 lakh and then 18 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 449,
+    "latency_s": 1.93
+  },
+  "p041": {
+    "inputs": {
+      "annual_salary": 1200000,
+      "rent_paid": 180000
+    },
+    "missing_fields": [
+      "basic_salary",
+      "hra_received",
+      "city"
+    ],
+    "conflicts": [
+      "User stated rent as both 10000 and 15000 monthly"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated rent as both 10000 and 15000 monthly. Which is correct?",
+    "ready": false,
+    "tokens": 467,
+    "latency_s": 1.01
+  },
+  "p042": {
+    "inputs": {
+      "annual_salary": 1000000,
+      "age": 45
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated age as 30 and 45"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated age as 30 and 45. Which is correct?",
+    "ready": false,
+    "tokens": 448,
+    "latency_s": 1.33
+  },
+  "p043": {
+    "inputs": {
+      "annual_salary": 2200000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated salary as 20 lakh and 22 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated salary as 20 lakh and 22 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 445,
+    "latency_s": 3.78
+  },
+  "p044": {
+    "inputs": {
+      "annual_salary": 1400000,
+      "section_80c": 150000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User provided two different values for section 80C: 1 lakh and 1.5 lakh"
+    ],
+    "assumptions": [
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User provided two different values for section 80C: 1 lakh and 1.5 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 466,
+    "latency_s": 5.82
+  },
+  "p045": {
+    "inputs": {
+      "annual_salary": 1200000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "Annual salary of 12 lakh and monthly salary of 50k are contradictory as 50k per month equals 6 lakh per year."
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: Annual salary of 12 lakh and monthly salary of 50k are contradictory as 50k per month equals 6 lakh per year.. Which is correct?",
+    "ready": false,
+    "tokens": 468,
+    "latency_s": 11.15
+  },
+  "p046": {
+    "inputs": {},
+    "missing_fields": [
+      "annual_salary"
+    ],
+    "conflicts": [
+      "User stated salary as both 11 lakh and 13 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated salary as both 11 lakh and 13 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 439,
+    "latency_s": 5.73
+  },
+  "p047": {
+    "inputs": {
+      "annual_salary": 1400000,
+      "rent_paid": 240000,
+      "basic_salary": 600000,
+      "hra_received": 200000,
+      "is_metro": false
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated living in Mumbai and then corrected to Pune"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated living in Mumbai and then corrected to Pune. Which is correct?",
+    "ready": false,
+    "tokens": 477,
+    "latency_s": 9.44
+  },
+  "p048": {
+    "inputs": {
+      "annual_salary": 2000000,
+      "home_loan_interest": 250000
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "Home loan interest stated as 1 lakh and 2.5 lakh"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: Home loan interest stated as 1 lakh and 2.5 lakh. Which is correct?",
+    "ready": false,
+    "tokens": 456,
+    "latency_s": 1.39
+  },
+  "p049": {
+    "inputs": {
+      "annual_salary": 750000
+    },
+    "missing_fields": [],
+    "conflicts": [],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": null,
+    "ready": true,
+    "tokens": 422,
+    "latency_s": 6.24
+  },
+  "p050": {
+    "inputs": {
+      "annual_salary": 900000,
+      "age": 67
+    },
+    "missing_fields": [],
+    "conflicts": [
+      "User stated age as 58 and 67"
+    ],
+    "assumptions": [
+      "section_80c not mentioned, treated as 0",
+      "section_80ccd_1b not mentioned, treated as 0",
+      "health_premium_self not mentioned, treated as 0",
+      "health_premium_parents not mentioned, treated as 0",
+      "home_loan_interest not mentioned, treated as 0"
+    ],
+    "clarifying_question": "I found conflicting details: User stated age as 58 and 67. Which is correct?",
+    "ready": false,
+    "tokens": 447,
+    "latency_s": 10.95
+  }
+}

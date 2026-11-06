@@ -1,0 +1,352 @@
+[
+  {
+    "id": "p001",
+    "kind": "complete",
+    "text": "My salary is 1200000. I have 150000 under 80C.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p002",
+    "kind": "incomplete",
+    "text": "I earn 12 lakh and pay rent",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p003",
+    "kind": "contradictory",
+    "text": "meri salary 10 lakh hai, phir bola 12 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p004",
+    "kind": "complete",
+    "text": "I get 50k per month",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p005",
+    "kind": "complete",
+    "text": "meri salary 18 lakh hai aur 80C mein 1.5 lakh lagaya hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p006",
+    "kind": "complete",
+    "text": "I earn 2 crore a year",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p007",
+    "kind": "complete",
+    "text": "Salary 15 lakh, rent 20k per month in Mumbai, basic 6 lakh, HRA 2.4 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p008",
+    "kind": "incomplete",
+    "text": "Salary 15 lakh, rent 20k per month, basic 6 lakh, HRA 2.4 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p009",
+    "kind": "complete",
+    "text": "I earn 14 lakh and own my house, no rent",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p010",
+    "kind": "incomplete",
+    "text": "Salary 12 lakh, I pay 30000 health insurance for my parents",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p011",
+    "kind": "complete",
+    "text": "I have a 5 lakh loan interest and salary of 25 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p012",
+    "kind": "contradictory",
+    "text": "Mera CTC 10 lakh hai, actually 12 lakh hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p013",
+    "kind": "complete",
+    "text": "My CTC is 9 lakh per annum.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p014",
+    "kind": "complete",
+    "text": "Gross salary 24 lakh, 80C 1.5 lakh, and 50000 extra in NPS.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p015",
+    "kind": "complete",
+    "text": "I earn 80,000 a month and pay 25000 health insurance for myself.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p016",
+    "kind": "complete",
+    "text": "Annual package is 30 lpa, home loan interest 1.8 lakh.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p017",
+    "kind": "complete",
+    "text": "I'm 62 years old, salary 11 lakh, health insurance 40000 for myself.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p018",
+    "kind": "complete",
+    "text": "Salary 16 lakh, rent 12000 monthly in Delhi, basic salary 8 lakh, HRA 3.2 lakh.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p019",
+    "kind": "complete",
+    "text": "Salary 16 lakh, rent 12000 monthly in Nagpur, basic 8 lakh, HRA 3.2 lakh.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p020",
+    "kind": "complete",
+    "text": "Salary 20 lakh, my parents are 65 and I pay 45000 premium for them.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p021",
+    "kind": "complete",
+    "text": "I make 6.5 lakh a year.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p022",
+    "kind": "complete",
+    "text": "meri salary 25 lakh hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p023",
+    "kind": "complete",
+    "text": "main 40k mahine ka kamata hoon",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p024",
+    "kind": "complete",
+    "text": "salary 12 lac hai aur 80C mein 1 lakh invest kiya hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p025",
+    "kind": "complete",
+    "text": "meri annual income 9 lpa hai, NPS mein 50000 dala hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p026",
+    "kind": "complete",
+    "text": "mera salary 20 lakh hai, Mumbai mein 25k rent deta hoon, basic 8 lakh aur HRA 3 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p027",
+    "kind": "complete",
+    "text": "salary 14 lakh hai, home loan ka interest 1.2 lakh bhar raha hoon",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p028",
+    "kind": "complete",
+    "text": "mera ghar apna hai, salary 18 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p029",
+    "kind": "complete",
+    "text": "meri age 63 saal hai aur salary 10 lakh hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p030",
+    "kind": "incomplete",
+    "text": "papa mummy ka health insurance 30000 ka hai, meri salary 15 lakh hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p031",
+    "kind": "incomplete",
+    "text": "salary 8 lakh hai, rent bhi deta hoon",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p032",
+    "kind": "complete",
+    "text": "meri salary 22 lakh hai, 80C mein pura 1.5 lakh bhara hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p033",
+    "kind": "complete",
+    "text": "1 lakh mahina milta hai, apne health insurance ka 20000 diya",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p034",
+    "kind": "incomplete",
+    "text": "I pay 15000 rent every month",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p035",
+    "kind": "incomplete",
+    "text": "I want to know my tax",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p036",
+    "kind": "incomplete",
+    "text": "Salary 12 lakh, rent 10k monthly, I live in Chennai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p037",
+    "kind": "incomplete",
+    "text": "mujhe tax calculate karna hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p038",
+    "kind": "incomplete",
+    "text": "I earn 18 lakh and pay 25000 health insurance for my parents",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p039",
+    "kind": "contradictory",
+    "text": "My salary is 10 lakh, no wait, it's 12 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p040",
+    "kind": "contradictory",
+    "text": "Salary is 15 lakh. Oh sorry, I meant 18 lakh.",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p041",
+    "kind": "contradictory",
+    "text": "I pay 10000 rent monthly, actually 15000 monthly, salary 12 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p042",
+    "kind": "contradictory",
+    "text": "I am 30 years old, actually 45, salary 10 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p043",
+    "kind": "contradictory",
+    "text": "meri salary 20 lakh hai, nahi nahi 22 lakh hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p044",
+    "kind": "contradictory",
+    "text": "80C investment 1 lakh hai, wait 1.5 lakh hai, salary 14 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p045",
+    "kind": "contradictory",
+    "text": "My salary is 12 lakh per year and 50k per month",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p046",
+    "kind": "contradictory",
+    "text": "meri salary 11 lakh hai ya 13 lakh, pata nahi",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p047",
+    "kind": "contradictory",
+    "text": "I live in Mumbai, no actually Pune. Rent 20k monthly, salary 14 lakh, basic 6 lakh, HRA 2 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p048",
+    "kind": "contradictory",
+    "text": "Home loan interest 1 lakh, correction 2.5 lakh, salary 20 lakh",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p049",
+    "kind": "complete",
+    "text": "meri tankhwah 7.5 lakh saalana hai",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "id": "p050",
+    "kind": "contradictory",
+    "text": "My age is 58, no I am 67, salary 9 lakh",
+    "passed": true,
+    "problems": []
+  }
+]

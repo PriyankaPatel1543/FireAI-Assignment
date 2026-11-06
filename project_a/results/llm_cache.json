@@ -1,0 +1,5427 @@
+{
+  "grid_001#0": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.82
+  },
+  "grid_005#0": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Home Loan Interest",
+          "amount": 200000,
+          "clause": "Sec 24(b)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 50000,
+          "clause": "Sec 80C"
+        }
+      ],
+      "taxable_income": 0,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 24(b)",
+        "Sec 80C"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1436,
+    "tokens_out": 419,
+    "latency_s": 1.42
+  },
+  "grid_009#0": {
+    "old": {
+      "gross_salary": 500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        }
+      ],
+      "taxable_income": 300000,
+      "slab_tax": 2500,
+      "rebate": 2500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 425000,
+      "slab_tax": 6250,
+      "rebate": 6250,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1421,
+    "tokens_out": 416,
+    "latency_s": 1.62
+  },
+  "grid_013#0": {
+    "old": {
+      "gross_salary": 500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Health Insurance Premium (Self)",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        },
+        {
+          "name": "Health Insurance Premium (Parents)",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 375000,
+      "slab_tax": 3750,
+      "rebate": 3750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80D",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 425000,
+      "slab_tax": 6250,
+      "rebate": 6250,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1441,
+    "tokens_out": 444,
+    "latency_s": 1.58
+  },
+  "grid_017#0": {
+    "old": {
+      "gross_salary": 600000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 325000,
+      "slab_tax": 3750,
+      "rebate": 3750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 600000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 525000,
+      "slab_tax": 11250,
+      "rebate": 11250,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 456,
+    "latency_s": 1.49
+  },
+  "grid_021#0": {
+    "old": {
+      "gross_salary": 600000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 350000,
+      "slab_tax": 2500,
+      "rebate": 2500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 600000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 525000,
+      "slab_tax": 11250,
+      "rebate": 11250,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1449,
+    "tokens_out": 454,
+    "latency_s": 1.71
+  },
+  "grid_025#0": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.5
+  },
+  "grid_029#0": {
+    "old": {
+      "gross_salary": 1000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 950000,
+      "slab_tax": 102500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 4100,
+      "total_tax": 106600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 112A/115 slab rates"
+      ]
+    },
+    "new": {
+      "gross_salary": 1000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 925000,
+      "slab_tax": 62500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2500,
+      "total_tax": 65000,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 376,
+    "latency_s": 1.45
+  },
+  "grid_033#0": {
+    "old": {
+      "gross_salary": 1000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 100000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Home Loan Interest",
+          "amount": 200000,
+          "clause": "Sec 24(b)"
+        }
+      ],
+      "taxable_income": 650000,
+      "slab_tax": 42500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1700,
+      "total_tax": 44200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 24(b)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 925000,
+      "slab_tax": 52500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2100,
+      "total_tax": 54600,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1437,
+    "tokens_out": 462,
+    "latency_s": 1.41
+  },
+  "grid_037#0": {
+    "old": {
+      "gross_salary": 1200000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        }
+      ],
+      "taxable_income": 1000000,
+      "slab_tax": 112500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 4500,
+      "total_tax": 117000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C"
+      ]
+    },
+    "new": {
+      "gross_salary": 1200000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1125000,
+      "slab_tax": 78750,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 3150,
+      "total_tax": 81900,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1422,
+    "tokens_out": 371,
+    "latency_s": 1.61
+  },
+  "grid_041#0": {
+    "old": {
+      "gross_salary": 1200000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Health Insurance Premium (Self)",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        },
+        {
+          "name": "Health Insurance Premium (Parents)",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1075000,
+      "slab_tax": 147500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5900,
+      "total_tax": 153400,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80D",
+        "Sec 111"
+      ]
+    },
+    "new": {
+      "gross_salary": 1200000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1125000,
+      "slab_tax": 81250,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 3250,
+      "total_tax": 84500,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1442,
+    "tokens_out": 464,
+    "latency_s": 1.46
+  },
+  "grid_045#0": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1225000,
+      "slab_tax": 180000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7200,
+      "total_tax": 187200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 459,
+    "latency_s": 1.74
+  },
+  "grid_049#0": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 1.7
+  },
+  "grid_053#0": {
+    "old": {
+      "gross_salary": 2000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 400000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 1550000,
+      "slab_tax": 292500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 11700,
+      "total_tax": 304200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)",
+        "Sec 112A/115BAC(1A) not applicable"
+      ]
+    },
+    "new": {
+      "gross_salary": 2000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1925000,
+      "slab_tax": 287500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 11500,
+      "total_tax": 299000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1454,
+    "tokens_out": 444,
+    "latency_s": 1.69
+  },
+  "grid_057#0": {
+    "old": {
+      "gross_salary": 3000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 2950000,
+      "slab_tax": 732500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 29300,
+      "total_tax": 761800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs"
+      ]
+    },
+    "new": {
+      "gross_salary": 3000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 2925000,
+      "slab_tax": 602500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 24100,
+      "total_tax": 626600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 374,
+    "latency_s": 1.52
+  },
+  "grid_061#0": {
+    "old": {
+      "gross_salary": 3000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 100000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Home Loan Interest",
+          "amount": 200000,
+          "clause": "Sec 24(b)"
+        }
+      ],
+      "taxable_income": 2650000,
+      "slab_tax": 637500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 25500,
+      "total_tax": 663000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 24(b)"
+      ]
+    },
+    "new": {
+      "gross_salary": 3000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 2925000,
+      "slab_tax": 582500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 23300,
+      "total_tax": 605800,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1437,
+    "tokens_out": 470,
+    "latency_s": 1.7
+  },
+  "grid_065#0": {
+    "old": {
+      "gross_salary": 5000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        }
+      ],
+      "taxable_income": 4800000,
+      "slab_tax": 1362500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 54500,
+      "total_tax": 1417000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C"
+      ]
+    },
+    "new": {
+      "gross_salary": 5000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 4925000,
+      "slab_tax": 1302500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 52100,
+      "total_tax": 1354600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1422,
+    "tokens_out": 379,
+    "latency_s": 1.55
+  },
+  "grid_069#0": {
+    "old": {
+      "gross_salary": 5000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Health Insurance Premium (Self)",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        },
+        {
+          "name": "Health Insurance Premium (Parents)",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 4875000,
+      "slab_tax": 1375000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 55000,
+      "total_tax": 1430000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80D",
+        "Sec 111",
+        "Sec 112"
+      ]
+    },
+    "new": {
+      "gross_salary": 5000000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 4925000,
+      "slab_tax": 1252500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 50100,
+      "total_tax": 1302600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1442,
+    "tokens_out": 424,
+    "latency_s": 1.61
+  },
+  "grid_073#0": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 1.82
+  },
+  "grid_077#0": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7250000,
+      "slab_tax": 2050000,
+      "rebate": 0,
+      "surcharge": 205000,
+      "cess": 90200,
+      "total_tax": 2345200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs for age 80+",
+        "Surcharge 10%"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 2002500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 80100,
+      "total_tax": 2082600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 498,
+    "latency_s": 1.78
+  },
+  "boundary_new_001#0": {
+    "old": {
+      "gross_salary": 374990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 324990,
+      "slab_tax": 3750,
+      "rebate": 3750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 374990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 299990,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 336,
+    "latency_s": 1.46
+  },
+  "boundary_new_003#0": {
+    "old": {
+      "gross_salary": 375000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 325000,
+      "slab_tax": 3750,
+      "rebate": 3750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 375000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 300000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 336,
+    "latency_s": 1.42
+  },
+  "boundary_new_005#0": {
+    "old": {
+      "gross_salary": 375010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 325010,
+      "slab_tax": 3750,
+      "rebate": 3750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 375010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 300010,
+      "slab_tax": 5,
+      "rebate": 5,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 346,
+    "latency_s": 23.92
+  },
+  "boundary_new_007#0": {
+    "old": {
+      "gross_salary": 774999,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 774999,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 25000,
+      "rebate": 25000,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 5.51
+  },
+  "boundary_new_009#0": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.61
+  },
+  "boundary_new_011#0": {
+    "old": {
+      "gross_salary": 1074990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1024990,
+      "slab_tax": 134997,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5400,
+      "total_tax": 140400,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs"
+      ]
+    },
+    "new": {
+      "gross_salary": 1074990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 999990,
+      "slab_tax": 64999,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2600,
+      "total_tax": 67600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 369,
+    "latency_s": 1.42
+  },
+  "boundary_new_013#0": {
+    "old": {
+      "gross_salary": 1075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1025000,
+      "slab_tax": 130000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5200,
+      "total_tax": 135200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 112A/115BAC(1A) not applicable",
+        "Slabs for age below 60"
+      ]
+    },
+    "new": {
+      "gross_salary": 1075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1000000,
+      "slab_tax": 65000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2600,
+      "total_tax": 67600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 395,
+    "latency_s": 7.62
+  },
+  "boundary_new_015#0": {
+    "old": {
+      "gross_salary": 1075010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1025010,
+      "slab_tax": 135003,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5400,
+      "total_tax": 140400,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 288A",
+        "Sec 288B"
+      ]
+    },
+    "new": {
+      "gross_salary": 1075010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1000010,
+      "slab_tax": 65001,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2600,
+      "total_tax": 67600,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)",
+        "Sec 288A",
+        "Sec 288B"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 402,
+    "latency_s": 1.69
+  },
+  "boundary_new_017#0": {
+    "old": {
+      "gross_salary": 1274999,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1224999,
+      "slab_tax": 184999.7,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7400,
+      "total_tax": 192400,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs"
+      ]
+    },
+    "new": {
+      "gross_salary": 1274999,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1199999,
+      "slab_tax": 92500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 3700,
+      "total_tax": 96200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 373,
+    "latency_s": 1.45
+  },
+  "boundary_new_019#0": {
+    "old": {
+      "gross_salary": 1275001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1225000,
+      "slab_tax": 185000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7400,
+      "total_tax": 192400,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs"
+      ]
+    },
+    "new": {
+      "gross_salary": 1275001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1200000,
+      "slab_tax": 90000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 3600,
+      "total_tax": 93600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 370,
+    "latency_s": 20.42
+  },
+  "boundary_old_001#0": {
+    "old": {
+      "gross_salary": 299990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 299990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.46
+  },
+  "boundary_old_003#0": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.43
+  },
+  "boundary_old_005#0": {
+    "old": {
+      "gross_salary": 300010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250010,
+      "slab_tax": 1,
+      "rebate": 1,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225010,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.97
+  },
+  "boundary_old_007#0": {
+    "old": {
+      "gross_salary": 349999,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 300000,
+      "slab_tax": 2500,
+      "rebate": 2500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 349999,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 275000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 336,
+    "latency_s": 4.81
+  },
+  "boundary_old_009#0": {
+    "old": {
+      "gross_salary": 350001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 300000,
+      "slab_tax": 2500,
+      "rebate": 2500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 350001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 275000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 349,
+    "latency_s": 1.62
+  },
+  "boundary_old_011#0": {
+    "old": {
+      "gross_salary": 549990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 500000,
+      "slab_tax": 12500,
+      "rebate": 12500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 549990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 475000,
+      "slab_tax": 8750,
+      "rebate": 8750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 353,
+    "latency_s": 1.64
+  },
+  "boundary_old_013#0": {
+    "old": {
+      "gross_salary": 550000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 500000,
+      "slab_tax": 12500,
+      "rebate": 12500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 550000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 475000,
+      "slab_tax": 8750,
+      "rebate": 8750,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 366,
+    "latency_s": 2.85
+  },
+  "boundary_old_015#0": {
+    "old": {
+      "gross_salary": 550010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 500010,
+      "slab_tax": 12501,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 500,
+      "total_tax": 13000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 550010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 475010,
+      "slab_tax": 8751,
+      "rebate": 8751,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 368,
+    "latency_s": 1.37
+  },
+  "surcharge_001#0": {
+    "old": {
+      "gross_salary": 5049990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5000000,
+      "slab_tax": 1425000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 57000,
+      "total_tax": 1482000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs"
+      ]
+    },
+    "new": {
+      "gross_salary": 5049990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 4975000,
+      "slab_tax": 1217500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 48700,
+      "total_tax": 1266200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 378,
+    "latency_s": 1.44
+  },
+  "surcharge_003#0": {
+    "old": {
+      "gross_salary": 5050010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5000010,
+      "slab_tax": 1425003,
+      "rebate": 0,
+      "surcharge": 142500,
+      "cess": 62700,
+      "total_tax": 1630200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "new": {
+      "gross_salary": 5050010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 4975010,
+      "slab_tax": 1317503,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 52700,
+      "total_tax": 1370200,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "New Regime Slabs"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 388,
+    "latency_s": 1.67
+  },
+  "surcharge_005#0": {
+    "old": {
+      "gross_salary": 5150000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5100000,
+      "slab_tax": 1422500,
+      "rebate": 0,
+      "surcharge": 142250,
+      "cess": 62590,
+      "total_tax": 1627340,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "new": {
+      "gross_salary": 5150000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5075000,
+      "slab_tax": 1397500,
+      "rebate": 0,
+      "surcharge": 139750,
+      "cess": 61490,
+      "total_tax": 1598740,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A) Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 409,
+    "latency_s": 1.56
+  },
+  "surcharge_007#0": {
+    "old": {
+      "gross_salary": 5075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5025000,
+      "slab_tax": 1432500,
+      "rebate": 0,
+      "surcharge": 143250,
+      "cess": 63030,
+      "total_tax": 1638780,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "new": {
+      "gross_salary": 5075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5000000,
+      "slab_tax": 1350000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 54000,
+      "total_tax": 1404000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A) Slabs"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 395,
+    "latency_s": 1.56
+  },
+  "surcharge_009#0": {
+    "old": {
+      "gross_salary": 5076000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5026000,
+      "slab_tax": 1432800,
+      "rebate": 0,
+      "surcharge": 143280,
+      "cess": 63043,
+      "total_tax": 1639120,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "new": {
+      "gross_salary": 5076000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5001000,
+      "slab_tax": 1350300,
+      "rebate": 0,
+      "surcharge": 135030,
+      "cess": 59412,
+      "total_tax": 1544740,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A) Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "tokens_in": 1407,
+    "tokens_out": 409,
+    "latency_s": 1.56
+  },
+  "surcharge_011#0": {
+    "old": {
+      "gross_salary": 10049990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 9999990,
+      "slab_tax": 2924997,
+      "rebate": 0,
+      "surcharge": 292499.7,
+      "cess": 128599.87,
+      "total_tax": 3346100,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Sec 112A/115BAC Surcharge"
+      ]
+    },
+    "new": {
+      "gross_salary": 10049990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 9974990,
+      "slab_tax": 2667497,
+      "rebate": 0,
+      "surcharge": 266749.7,
+      "cess": 117369.87,
+      "total_tax": 3051620,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 115BAC Surcharge"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 431,
+    "latency_s": 1.71
+  },
+  "surcharge_013#0": {
+    "old": {
+      "gross_salary": 10050010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10000010,
+      "slab_tax": 2925003,
+      "rebate": 0,
+      "surcharge": 438750,
+      "cess": 134550,
+      "total_tax": 3498300,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 15%"
+      ]
+    },
+    "new": {
+      "gross_salary": 10050010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 9975010,
+      "slab_tax": 2742503,
+      "rebate": 0,
+      "surcharge": 274250,
+      "cess": 120670,
+      "total_tax": 3137420,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A) Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 414,
+    "latency_s": 1.56
+  },
+  "surcharge_015#0": {
+    "old": {
+      "gross_salary": 10150000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10100000,
+      "slab_tax": 2922500,
+      "rebate": 0,
+      "surcharge": 438375,
+      "cess": 134435,
+      "total_tax": 3495310,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Sec 112A/115BAC Surcharge"
+      ]
+    },
+    "new": {
+      "gross_salary": 10150000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10075000,
+      "slab_tax": 2847500,
+      "rebate": 0,
+      "surcharge": 284750,
+      "cess": 125290,
+      "total_tax": 3257540,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 115BAC Surcharge"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 424,
+    "latency_s": 1.57
+  },
+  "surcharge_017#0": {
+    "old": {
+      "gross_salary": 10075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10025000,
+      "slab_tax": 2932500,
+      "rebate": 0,
+      "surcharge": 439875,
+      "cess": 134895,
+      "total_tax": 3507270,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 15%"
+      ]
+    },
+    "new": {
+      "gross_salary": 10075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10000000,
+      "slab_tax": 2700000,
+      "rebate": 0,
+      "surcharge": 270000,
+      "cess": 118800,
+      "total_tax": 3088800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A) Slabs",
+        "Surcharge 10%"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 416,
+    "latency_s": 1.65
+  },
+  "surcharge_019#0": {
+    "old": {
+      "gross_salary": 10076000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10026000,
+      "slab_tax": 2932800,
+      "rebate": 0,
+      "surcharge": 439920,
+      "cess": 134909,
+      "total_tax": 3507630,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 15%"
+      ]
+    },
+    "new": {
+      "gross_salary": 10076000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 10001000,
+      "slab_tax": 2775300,
+      "rebate": 0,
+      "surcharge": 416295,
+      "cess": 127664,
+      "total_tax": 3319260,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Surcharge 15%"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 412,
+    "latency_s": 1.56
+  },
+  "surcharge_021#0": {
+    "old": {
+      "gross_salary": 20049990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 19999990,
+      "slab_tax": 5924997,
+      "rebate": 0,
+      "surcharge": 888750,
+      "cess": 272550,
+      "total_tax": 7086300,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 15%"
+      ]
+    },
+    "new": {
+      "gross_salary": 20049990,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 19974990,
+      "slab_tax": 5617497,
+      "rebate": 0,
+      "surcharge": 842625,
+      "cess": 258405,
+      "total_tax": 6718530,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Surcharge 15%"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 412,
+    "latency_s": 1.58
+  },
+  "surcharge_023#0": {
+    "old": {
+      "gross_salary": 20050010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 20000010,
+      "slab_tax": 5925003,
+      "rebate": 0,
+      "surcharge": 1481251,
+      "cess": 296250,
+      "total_tax": 7702500,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 25%"
+      ]
+    },
+    "new": {
+      "gross_salary": 20050010,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 19975010,
+      "slab_tax": 5617503,
+      "rebate": 0,
+      "surcharge": 1404376,
+      "cess": 280875,
+      "total_tax": 7302750,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Surcharge 25%"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 414,
+    "latency_s": 1.57
+  },
+  "surcharge_025#0": {
+    "old": {
+      "gross_salary": 20150000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 20100000,
+      "slab_tax": 5952500,
+      "rebate": 0,
+      "surcharge": 1488125,
+      "cess": 297625,
+      "total_tax": 7738250,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 25% (above 2 crore)"
+      ]
+    },
+    "new": {
+      "gross_salary": 20150000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 20075000,
+      "slab_tax": 5847500,
+      "rebate": 0,
+      "surcharge": 1461875,
+      "cess": 292375,
+      "total_tax": 7601750,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Surcharge 25% (above 2 crore)"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 427,
+    "latency_s": 1.66
+  },
+  "surcharge_027#0": {
+    "old": {
+      "gross_salary": 20075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 20025000,
+      "slab_tax": 5932500,
+      "rebate": 0,
+      "surcharge": 1483125,
+      "cess": 296425,
+      "total_tax": 7712050,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Old Regime Slabs",
+        "Surcharge 25%"
+      ]
+    },
+    "new": {
+      "gross_salary": 20075000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 20000000,
+      "slab_tax": 5850000,
+      "rebate": 0,
+      "surcharge": 1462500,
+      "cess": 292500,
+      "total_tax": 7605000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Surcharge 25%"
+      ]
+    },
+    "tokens_in": 1408,
+    "tokens_out": 414,
+    "latency_s": 1.77
+  },
+  "random_001#0": {
+    "old": {
+      "gross_salary": 5538000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 80000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 25000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 15000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 5368000,
+      "slab_tax": 1535400,
+      "rebate": 0,
+      "surcharge": 153540,
+      "cess": 67558,
+      "total_tax": 1756500,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 5538000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 5463000,
+      "slab_tax": 1438900,
+      "rebate": 0,
+      "surcharge": 143890,
+      "cess": 63312,
+      "total_tax": 1646100,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1469,
+    "tokens_out": 474,
+    "latency_s": 1.6
+  },
+  "random_006#0": {
+    "old": {
+      "gross_salary": 869000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 70000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 5000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 694000,
+      "slab_tax": 38800,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1552,
+      "total_tax": 40350,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 869000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 794000,
+      "slab_tax": 34400,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1376,
+      "total_tax": 35780,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1467,
+    "tokens_out": 462,
+    "latency_s": 1.73
+  },
+  "random_011#0": {
+    "old": {
+      "gross_salary": 1443000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 183200,
+          "clause": "Sec 10(13A)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Section 80D",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        },
+        {
+          "name": "Home Loan Interest",
+          "amount": 200000,
+          "clause": "Sec 24(b)"
+        }
+      ],
+      "taxable_income": 759800,
+      "slab_tax": 56960,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2280,
+      "total_tax": 59240,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D",
+        "Sec 24(b)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1443000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1368000,
+      "slab_tax": 118600,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 4740,
+      "total_tax": 123340,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1521,
+    "tokens_out": 546,
+    "latency_s": 2.07
+  },
+  "random_016#0": {
+    "old": {
+      "gross_salary": 1763000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Section 80D",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        },
+        {
+          "name": "Home Loan Interest",
+          "amount": 200000,
+          "clause": "Sec 24(b)"
+        }
+      ],
+      "taxable_income": 1288000,
+      "slab_tax": 198900,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7956,
+      "total_tax": 206860,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D",
+        "Sec 24(b)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1763000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1688000,
+      "slab_tax": 181400,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7256,
+      "total_tax": 188660,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)"
+      ]
+    },
+    "tokens_in": 1475,
+    "tokens_out": 503,
+    "latency_s": 2.33
+  },
+  "random_021#0": {
+    "old": {
+      "gross_salary": 3888000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 17500,
+          "clause": "Sec 10(13A)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 30000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 25000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 15000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 3750500,
+      "slab_tax": 1000150,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 40006,
+      "total_tax": 1040160,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D",
+        "Sec 288A",
+        "Sec 288B"
+      ]
+    },
+    "new": {
+      "gross_salary": 3888000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 3813000,
+      "slab_tax": 818900,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 32756,
+      "total_tax": 851660,
+      "clauses_used": [
+        "Sec 115BAC(1A)",
+        "Sec 16(ia)",
+        "Sec 288A",
+        "Sec 288B"
+      ]
+    },
+    "tokens_in": 1516,
+    "tokens_out": 538,
+    "latency_s": 2.01
+  },
+  "random_026#0": {
+    "old": {
+      "gross_salary": 1106000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 115633,
+          "clause": "Sec 10(13A)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 100000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80D",
+          "amount": 15000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 825370,
+      "slab_tax": 80074,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 3203,
+      "total_tax": 83280,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)",
+        "Sec 80C",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 1106000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1031000,
+      "slab_tax": 68100,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2724,
+      "total_tax": 70820,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1512,
+    "tokens_out": 453,
+    "latency_s": 1.83
+  },
+  "random_031#0": {
+    "old": {
+      "gross_salary": 4650000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 38800,
+          "clause": "Sec 10(13A)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80D",
+          "amount": 10000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 4401200,
+      "slab_tax": 1207860,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 48310,
+      "total_tax": 1256170,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)",
+        "Sec 80C",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 4650000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 4575000,
+      "slab_tax": 1177500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 47100,
+      "total_tax": 1224600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1513,
+    "tokens_out": 463,
+    "latency_s": 1.65
+  },
+  "random_036#0": {
+    "old": {
+      "gross_salary": 2778000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 0,
+          "clause": "Sec 10(13A)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80D",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        },
+        {
+          "name": "Home Loan Interest",
+          "amount": 200000,
+          "clause": "Sec 24(b)"
+        }
+      ],
+      "taxable_income": 2328000,
+      "slab_tax": 553400,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 22136,
+      "total_tax": 575540,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)",
+        "Sec 80C",
+        "Sec 80D",
+        "Sec 24(b)"
+      ]
+    },
+    "new": {
+      "gross_salary": 2778000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 2703000,
+      "slab_tax": 485900,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 19436,
+      "total_tax": 505340,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1518,
+    "tokens_out": 498,
+    "latency_s": 1.65
+  },
+  "grid_001#1": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 39.56
+  },
+  "grid_001#2": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.72
+  },
+  "grid_001#3": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.59
+  },
+  "grid_001#4": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.93
+  },
+  "grid_001#5": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.44
+  },
+  "grid_001#6": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.61
+  },
+  "grid_001#7": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.42
+  },
+  "grid_001#8": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 2.35
+  },
+  "grid_001#9": {
+    "old": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 250000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 300000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 225000,
+      "slab_tax": 0,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 343,
+    "latency_s": 1.45
+  },
+  "grid_025#1": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 6.32
+  },
+  "grid_025#2": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.7
+  },
+  "grid_025#3": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.68
+  },
+  "grid_025#4": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.64
+  },
+  "grid_025#5": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.6
+  },
+  "grid_025#6": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.6
+  },
+  "grid_025#7": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.63
+  },
+  "grid_025#8": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.49
+  },
+  "grid_025#9": {
+    "old": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "HRA Exemption",
+          "amount": 160000,
+          "clause": "Sec 10(13A)"
+        }
+      ],
+      "taxable_income": 590000,
+      "slab_tax": 30500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1220,
+      "total_tax": 31720,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 10(13A)"
+      ]
+    },
+    "new": {
+      "gross_salary": 800000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 27500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 1100,
+      "total_tax": 28600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1452,
+    "tokens_out": 413,
+    "latency_s": 1.39
+  },
+  "grid_049#1": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 1.51
+  },
+  "grid_049#2": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 1.66
+  },
+  "grid_049#3": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 1.94
+  },
+  "grid_049#4": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 2.12
+  },
+  "grid_049#5": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 3.0
+  },
+  "grid_049#6": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 1.84
+  },
+  "grid_049#7": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 4.82
+  },
+  "grid_049#8": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 2.36
+  },
+  "grid_049#9": {
+    "old": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Health Insurance Premium Parents",
+          "amount": 50000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 1250000,
+      "slab_tax": 175000,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 7000,
+      "total_tax": 182000,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80D",
+        "Slabs (Age 80+)"
+      ]
+    },
+    "new": {
+      "gross_salary": 1500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 1425000,
+      "slab_tax": 127500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 5100,
+      "total_tax": 132600,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1450,
+    "tokens_out": 478,
+    "latency_s": 1.98
+  },
+  "grid_073#1": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 1.74
+  },
+  "grid_073#2": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 1.67
+  },
+  "grid_073#3": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 1.65
+  },
+  "grid_073#4": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 2.21
+  },
+  "grid_073#5": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 2.2
+  },
+  "grid_073#6": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 2.19
+  },
+  "grid_073#7": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 1.86
+  },
+  "grid_073#8": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 2.06
+  },
+  "grid_073#9": {
+    "old": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        },
+        {
+          "name": "Section 80C",
+          "amount": 150000,
+          "clause": "Sec 80C"
+        },
+        {
+          "name": "Section 80CCD(1B)",
+          "amount": 50000,
+          "clause": "Sec 80CCD(1B)"
+        },
+        {
+          "name": "Health Insurance Premium",
+          "amount": 25000,
+          "clause": "Sec 80D"
+        }
+      ],
+      "taxable_income": 7225000,
+      "slab_tax": 2115000,
+      "rebate": 0,
+      "surcharge": 211500,
+      "cess": 93060,
+      "total_tax": 2419560,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 80C",
+        "Sec 80CCD(1B)",
+        "Sec 80D"
+      ]
+    },
+    "new": {
+      "gross_salary": 7500000,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 7425000,
+      "slab_tax": 1952500,
+      "rebate": 0,
+      "surcharge": 195250,
+      "cess": 85910,
+      "total_tax": 2233660,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)"
+      ]
+    },
+    "tokens_in": 1453,
+    "tokens_out": 475,
+    "latency_s": 1.56
+  },
+  "boundary_new_009#1": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.65
+  },
+  "boundary_new_009#2": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.5
+  },
+  "boundary_new_009#3": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.82
+  },
+  "boundary_new_009#4": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.73
+  },
+  "boundary_new_009#5": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.48
+  },
+  "boundary_new_009#6": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.54
+  },
+  "boundary_new_009#7": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.61
+  },
+  "boundary_new_009#8": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.41
+  },
+  "boundary_new_009#9": {
+    "old": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 50000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 725000,
+      "slab_tax": 57500,
+      "rebate": 0,
+      "surcharge": 0,
+      "cess": 2300,
+      "total_tax": 59800,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 87A"
+      ]
+    },
+    "new": {
+      "gross_salary": 775001,
+      "deductions": [
+        {
+          "name": "Standard Deduction",
+          "amount": 75000,
+          "clause": "Sec 16(ia)"
+        }
+      ],
+      "taxable_income": 700000,
+      "slab_tax": 22500,
+      "rebate": 22500,
+      "surcharge": 0,
+      "cess": 0,
+      "total_tax": 0,
+      "clauses_used": [
+        "Sec 16(ia)",
+        "Sec 115BAC(1A)",
+        "Sec 87A"
+      ]
+    },
+    "tokens_in": 1406,
+    "tokens_out": 371,
+    "latency_s": 1.52
+  }
+}
